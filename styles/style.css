@@ -1,50 +1,58 @@
-#root  {
-    width: 100vw;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+/* -------- */
 .headContainerClass{
-    width: 100vw;
-    height: 10vh;
-}
-.headContainerClass .head{
-height: 80%;
-padding: 5px;
-background-color: white;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-width: 100%;
+    background: rgb(209, 153, 190);
+    width: 50px;
+   
+
 }
 
-h1{
-    color: red;
-    margin: 5px;
+.main{
+    background: rgb(49, 103, 145);
+    width: 50px;
+   
+ 
 }
 
-/* ------------sideBar------------ */
+.inside-main{
+    background: rgb(152, 160, 167);
+    width: 50px;
+   
+}
+
 .sideBar-container{
-    height: auto;
-    width: 30vw;
-    background-color: white;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background: rgb(85, 211, 95);
+    width: 50px;
+   
 
 }
+
 .side-Bar{
-    padding: 25px;
-    width: auto;
-    text-align: center;
-}
-.side-Bar ul {
-    text-decoration: none;
-    list-style: none;
-}
-.side-Bar ul li a{
-    color: black;
-    border: 1px soilid black;
-    padding: 10px 20px;
-    font-weight: bolder;
-    
+    background: rgb(145, 49, 118);
+    width: 50px;
+   
     
 }
-.side-Bar ul li {
-    margin-right: 35px;
-    margin-top: 15px;
+
+/* ------------------------- */
+
+.main-img{
+    display: flex;
+
+
 }
+
